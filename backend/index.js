@@ -25,7 +25,7 @@ app.use(express.urlencoded({
     extended: true
 }));
 const corsConfiguration = {
-    origin: 'https://twitterclone-5sng.onrender.com/',
+    origin: 'https://twitterclone-5sng.onrender.com',
     credentials:true
 }
 app.use(cors(corsConfiguration))
