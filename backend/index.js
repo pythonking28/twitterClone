@@ -25,7 +25,7 @@ app.use(express.urlencoded({
     extended: true
 }));
 const corsConfiguration = {
-    origin: 'http://localhost:3000',
+    origin: 'https://twitterclone-5sng.onrender.com/',
     credentials:true
 }
 app.use(cors(corsConfiguration))
